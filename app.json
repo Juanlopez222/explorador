@@ -11,6 +11,12 @@
       "icon": "./assets/expo.icon"
     },
     "android": {
+      "package": "com.juan.explorador",
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ],
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -25,6 +31,18 @@
     },
     "plugins": [
       "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Permite usar la cámara para tomar fotos de tus salidas."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Permite usar tu ubicación para registrar dónde estás."
+        }
+      ],
       [
         "expo-splash-screen",
         {
