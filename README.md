@@ -17,7 +17,7 @@ npx expo start
 
 ## APK
 
-Descarga: ENLACE_AQUI
+Descarga: https://github.com/Juanlopez222/explorador/releases/download/v1.0/explorador.apk
 
 ## Tecnologías
 
